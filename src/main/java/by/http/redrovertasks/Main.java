@@ -6,5 +6,7 @@ public class Main {
 
     Task1.main(args);
     Task2.main(args);
+    Task3_1.main(args);
+    Task3_2.main(args);
   }
 }
