@@ -1,16 +1,19 @@
 package by.http.redrovertasks;
 
+import java.sql.SQLOutput;
+
 public class Task1 {
 
   public static void main(String[] args) {
     {
+      System.out.println("Задача 1.1");
       System.out.println(3);
       System.out.println(2);
       System.out.println(1);
       System.out.println("Поехали!");
-
     }
     {
+      System.out.println("Задача 1.2");
       System.out.println("____888888______________________________");
       System.out.println("____888888______________________________");
       System.out.println("___8888888888___________________________");
@@ -45,6 +48,7 @@ public class Task1 {
     }
 
     {
+      System.out.println("Задача 1.3");
       System.out.println("\u263A");
     }
   }
