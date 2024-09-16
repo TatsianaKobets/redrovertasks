@@ -57,6 +57,7 @@ public class Task5_2 {
         index = s.toLowerCase().indexOf(sub.toLowerCase(), index + 1);
       }
     }
+
     /**Экстра задача №2
      Дан массив:
      String[][] array = {{“Привет”, “всем”, “кто”}, {“изучает”, “язык”, “программирования”}, {“java”}};
@@ -84,6 +85,43 @@ public class Task5_2 {
       int count = 0;
       for (String[] row : arrayStrings) {
         if (!Arrays.stream(row).anyMatch(str -> str.toLowerCase().contains("е"))) {
+          count++;
+        }
+      }
+      System.out.println("Количество строк без буквы 'е': " + count);
+    }
+    {
+      String[][] array = {{"Привет", "всем", "кто"}, {"изучает", "язык", "программирования"}, {"java"}};
+      int count = 0;
+      int i = 0;
+      while (i < array.length) {
+        boolean containsE = false;
+        int j = 0;
+        while (j < array[i].length) {
+          if (array[i][j].toLowerCase().contains("е")) {
+            containsE = true;
+            break;
+          }
+          j++;
+        }
+        if (!containsE) {
+          count++;
+        }
+        i++;
+      }
+      System.out.println("Количество строк без буквы 'е': " + count);
+    }
+    {
+      String[][] array = {{"Привет", "всем", "кто"}, {"изучает", "язык", "программирования"}, {"java"}};
+      int count = 0;
+      for (int i = 0; i < array.length; i++) {
+        boolean containsE = false;
+        for (int j = 0; j < array[i].length; j++) {
+          if (array[i][j].toLowerCase().contains("е")) {
+            containsE = true;
+          }
+        }
+        if (!containsE) {
           count++;
         }
       }
