@@ -1,4 +1,4 @@
-package by.http.redrovertasks.task6.apptask6_3;
+package by.http.redrovertasks.task6.task6_3;
 
 public class Employee {
   private double baseSalary;
