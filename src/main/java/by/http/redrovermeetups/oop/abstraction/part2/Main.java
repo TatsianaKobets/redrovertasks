@@ -13,5 +13,14 @@ public class Main {
     myCar.skid();
     System.out.println(myCar.model + " " + myCar.color + " " + myCar.yearOfProduction + " " + myCar.nameDriver);
     System.out.println(myCar.toString());
+
+    HardCar myCar1 = new HardCar("Nissan", "Blue", 2021);
+
+    myCar1.drive();
+    myCar1.openTheDoor();
+    myCar1.brake();
+    myCar1.ladle();
+    System.out.println(myCar1.model + " " + myCar1.color + " " + myCar1.yearOfProduction);
+    System.out.println(myCar1.toString());
   }
 }

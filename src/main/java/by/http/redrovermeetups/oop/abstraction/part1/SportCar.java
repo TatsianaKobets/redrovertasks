@@ -12,16 +12,25 @@ public class SportCar extends AbstractCar {
 
   @Override
   void drive() {
-    System.out.println("Движение спортивного автомобиля: " + model);
+    System.out.println("Движение спортивного автомобиля");
   }
 
   @Override
   void openTheDoor() {
-    System.out.println("2-х дверные автомобиль: " + model);
+    System.out.println("2-х дверный автомобиль");
   }
 
   @Override
   void brake() {
-    System.out.println("Торможение спортивного автомобиля: " + model);
+    System.out.println("Торможение спортивного автомобиля");
+  }
+
+  @Override
+  public String toString() {
+    return "SportCar{" +
+        "model='" + model + '\'' +
+        ", color='" + color + '\'' +
+        ", yearOfProduction=" + yearOfProduction +
+        '}';
   }
 }
