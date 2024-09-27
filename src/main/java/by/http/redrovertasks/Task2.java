@@ -36,6 +36,7 @@ public class Task2 {
       }
     }
 
+
     {
       /**
        * Задача №2
