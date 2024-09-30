@@ -1,10 +1,10 @@
-package by.http.redrovertasks;
+package by.http.redrovertasks.task_3;
 
 public class Task3_1 {
 
   public static void main(String[] args) {
     {
-      System.out.println("Задача 3.1");
+      System.out.println("Задача 3.1.1");
       /**
        Задача №1
        Необходимо создать две целочисленные переменные (a, b),
@@ -25,7 +25,7 @@ public class Task3_1 {
       }
     }
     {
-      System.out.println("Задача 3.2");
+      System.out.println("Задача 3.1.2");
       /**
        Задача №2
 
@@ -44,7 +44,7 @@ public class Task3_1 {
     }
 
     {
-      System.out.println("Задача 3.3");
+      System.out.println("Задача 3.1.3");
       /**
        Задача №3
        Необходимо создать целочисленную переменную, присвоить произвольное значение переменной на ваш выбор и вывести следующие строки:

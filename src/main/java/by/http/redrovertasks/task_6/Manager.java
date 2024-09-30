@@ -1,14 +1,14 @@
-package by.http.redrovertasks.task6.task6_3;
+package by.http.redrovertasks.task_6;
 
-public class Director extends Worker {
+public class Manager extends Worker {
 
   private int numberOfSubordinates;
 
-  public Director(String name, double baseSalary) {
-    super(name, baseSalary);
+  public Manager(double baseSalary) {
+    super(baseSalary);
   }
 
-  public Director() {
+  public Manager() {
     super();
   }
 
@@ -20,11 +20,12 @@ public class Director extends Worker {
     this.numberOfSubordinates = numberOfSubordinates;
   }
 
-  public double getBonuses() {
+  @Override
+  public double getSalary() {
     if (numberOfSubordinates == 0) {
-      return 0.0;
+      return super.getSalary();
     } else {
-      return super.getSalary() * (getNumberOfSubordinates() / 100.0 * 9);
+      return super.getSalary() * (getNumberOfSubordinates() / 100.0 * 3);
     }
   }
 }

@@ -1,4 +1,4 @@
-package by.http.redrovertasks.task6.task6_3;
+package by.http.redrovertasks.task_6.task6_3;
 
 public abstract class Worker extends Employee {
 

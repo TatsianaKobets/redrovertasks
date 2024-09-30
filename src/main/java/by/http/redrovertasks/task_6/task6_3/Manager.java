@@ -1,11 +1,11 @@
-package by.http.redrovertasks.task6;
+package by.http.redrovertasks.task_6.task6_3;
 
 public class Manager extends Worker {
 
   private int numberOfSubordinates;
 
-  public Manager(double baseSalary) {
-    super(baseSalary);
+  public Manager(String name, double baseSalary) {
+    super(name, baseSalary);
   }
 
   public Manager() {
@@ -20,12 +20,12 @@ public class Manager extends Worker {
     this.numberOfSubordinates = numberOfSubordinates;
   }
 
-  @Override
-  public double getSalary() {
+  public double getBonuses() {
     if (numberOfSubordinates == 0) {
-      return super.getSalary();
+      return 0.0;
     } else {
       return super.getSalary() * (getNumberOfSubordinates() / 100.0 * 3);
     }
   }
 }
+

@@ -1,14 +1,14 @@
-package by.http.redrovertasks.task6.task6_3;
+package by.http.redrovertasks.task_6.task6_3;
 
-public class Manager extends Worker {
+public class Director extends Worker {
 
   private int numberOfSubordinates;
 
-  public Manager(String name, double baseSalary) {
+  public Director(String name, double baseSalary) {
     super(name, baseSalary);
   }
 
-  public Manager() {
+  public Director() {
     super();
   }
 
@@ -24,8 +24,7 @@ public class Manager extends Worker {
     if (numberOfSubordinates == 0) {
       return 0.0;
     } else {
-      return super.getSalary() * (getNumberOfSubordinates() / 100.0 * 3);
+      return super.getSalary() * (getNumberOfSubordinates() / 100.0 * 9);
     }
   }
 }
-

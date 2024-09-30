@@ -1,4 +1,4 @@
-package by.http.redrovertasks;
+package by.http.redrovertasks.task_5;
 
 public class Task5_3 {
 

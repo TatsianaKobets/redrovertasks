@@ -1,4 +1,4 @@
-package by.http.redrovertasks.task6;
+package by.http.redrovertasks.task_6;
 
 public class Worker {
 

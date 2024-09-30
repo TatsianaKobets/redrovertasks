@@ -1,10 +1,10 @@
-package by.http.redrovertasks;
+package by.http.redrovertasks.task_3;
 
 public class Task3_2 {
 
   public static void main(String[] args) {
     {
-      System.out.println("Задача 3.1");
+      System.out.println("Задача 3.2.1");
       /** Задача №3.1
        * Необходимо вывести числа от 0 до 15.*/
       for (int i = 0; i <= 15; i++) {
@@ -12,7 +12,7 @@ public class Task3_2 {
       }
     }
     {
-      System.out.println("Задача 3.2");
+      System.out.println("Задача 3.2.2");
 
       /** Задача №2
        * Необходимо вывести все положительные степени
@@ -33,7 +33,7 @@ public class Task3_2 {
       }
     }
     {
-      System.out.println("Задача 3.3");
+      System.out.println("Задача 3.2.3");
       /** Задача №3
        Необходимо вывести все числа кратные 4 между числами 40 и 60 включительно.
        Реализовать 2 варианта:

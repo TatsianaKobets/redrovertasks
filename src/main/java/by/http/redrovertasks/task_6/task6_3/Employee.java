@@ -1,16 +1,17 @@
-package by.http.redrovertasks.task6;
+package by.http.redrovertasks.task_6.task6_3;
 
 public class Employee {
 
   private double baseSalary;
   private String name;
 
-  public Employee() {
-  }
-
   public Employee(String name, double baseSalary) {
     this.name = name;
     this.baseSalary = baseSalary;
+  }
+
+  public Employee() {
+
   }
 
   public void setBaseSalary(double baseSalary) {
@@ -26,11 +27,7 @@ public class Employee {
   }
 
   public double getSalary() {
-    return baseSalary + getBonuses();
-  }
-
-  public double getBonuses() {
-    return 0.0;
+    return baseSalary;
   }
 
   public Double getBaseSalary() {
